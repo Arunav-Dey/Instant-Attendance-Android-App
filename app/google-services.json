@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "892424148897",
+    "firebase_url": "https://attendance-notifier.firebaseio.com",
+    "project_id": "attendance-notifier",
+    "storage_bucket": "attendance-notifier.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892424148897:android:1ed9c1168ee20df9851de0",
+        "android_client_info": {
+          "package_name": "com.deysofts.portalboy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892424148897-q67rmq7ejlmdejac8hrasghgnspblt7b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.deysofts.portalboy",
+            "certificate_hash": "5ff9fe7a8d3a212c441fd043d4035c7efa4718a4"
+          }
+        },
+        {
+          "client_id": "892424148897-rb2mqfd7soqh5e1slt56d30fe0ohamqg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXs7zgrUtIEcBYdX5bbYkCMlo5AbOuOSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892424148897-rb2mqfd7soqh5e1slt56d30fe0ohamqg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

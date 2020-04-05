@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    tools:context=".MainActivity">
+
+     <androidx.recyclerview.widget.RecyclerView
+         android:id="@+id/recyclerview_data"
+         android:layout_width="336dp"
+         android:layout_height="372dp"
+
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.466"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.573" />
+
+     <EditText
+         android:id="@+id/figure_editText"
+         android:layout_width="173dp"
+         android:layout_height="57dp"
+         android:ems="10"
+         android:hint="Enter like Num/Den"
+         android:inputType="textPersonName"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="@+id/recyclerview_data"
+         app:layout_constraintHorizontal_bias="0.008"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.994" />
+
+     <TextView
+         android:id="@+id/status_textView"
+         android:layout_width="170dp"
+         android:layout_height="56dp"
+         android:text="Enter the values as instructed then click here only"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.994"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.994" />
+
+     <TextView
+         android:id="@+id/textView"
+         android:layout_width="338dp"
+         android:layout_height="60dp"
+         android:background="@drawable/holder2"
+         android:text="         BT Attendance"
+         android:textSize="35dp"
+         android:textStyle="bold"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="@+id/recyclerview_data"
+         app:layout_constraintHorizontal_bias="1.0"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.038" />
+
+     <TextView
+         android:id="@+id/textView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Created by Arunav Dey"
+         tools:layout_editor_absoluteX="0dp"
+         tools:layout_editor_absoluteY="7dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
